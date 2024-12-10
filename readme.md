@@ -9,6 +9,7 @@ This is a todo-list which adds a new title and displays the list made using Djan
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
+- [Frontend] (#frontend)
 
 ## Requirements
 
@@ -55,8 +56,10 @@ This is a todo-list which adds a new title and displays the list made using Djan
         URL: http://127.0.0.1:8000/task-list/
 
 
+## Frontend
 
-
+![Frontend](images/2.png)
+![Added new task](images/2.png)
 
 
 
