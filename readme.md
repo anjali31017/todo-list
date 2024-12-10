@@ -60,7 +60,6 @@ This is a todo-list which adds a new title and displays the list made using Djan
 
 When submitted a new task, all tasks are displayed real-time in the table beside the form.
 
-![Image](images/1.png)
 ![Image](images/2.png)
 
 
