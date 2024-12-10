@@ -9,7 +9,6 @@ This is a todo-list which adds a new title and displays the list made using Djan
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
-- [Frontend] (#frontend)
 
 ## Requirements
 
@@ -40,6 +39,10 @@ This is a todo-list which adds a new title and displays the list made using Djan
 5. **Run the development server:**  
     python manage.py runserver
 
+6. **Run the frontend:**  
+    browse to frontend folder
+    python -m http.server 5500
+
 ## API Endpoints
 
 1. TaskView
@@ -52,5 +55,8 @@ This is a todo-list which adds a new title and displays the list made using Djan
         URL: http://127.0.0.1:8000/task-list/
 
 
-## API Endpoints
+
+
+
+
 
