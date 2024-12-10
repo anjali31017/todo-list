@@ -58,8 +58,10 @@ This is a todo-list which adds a new title and displays the list made using Djan
 
 ## Frontend
 
-![Frontend](images/1.png)
-![Added new task](images/2.png)
+When submitted a new task, all tasks are displayed real-time in the table beside the form.
+
+(images/1.png)
+(images/2.png)
 
 
 
