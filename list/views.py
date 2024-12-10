@@ -9,6 +9,11 @@ class TaskView(APIView):
     def post(self, request):
         try:
             title = request.data.get('title')
+            if title == '':
+                return Response({
+                'status': 400,
+                'message' : "Title cannot be null"
+            })
             new_task = Task.objects.create(title = title)
             new_task.save()
             return Response({
@@ -18,7 +23,7 @@ class TaskView(APIView):
         except Exception as e: 
             return Response({
                 'status': 500,
-                'error' : str(e)
+                'message' : str(e)
             })
     
     def get(self, request):
@@ -29,7 +34,7 @@ class TaskView(APIView):
             return Response({
                 "status" : 200,
                 "message" : "success",
-                "Books" : task_list_values
+                "task" : task_list_values
             })
         except Exception as e: 
             return Response({
