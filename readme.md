@@ -58,7 +58,7 @@ This is a todo-list which adds a new title and displays the list made using Djan
 
 ## Frontend
 
-![Frontend](images/2.png)
+![Frontend](images/1.png)
 ![Added new task](images/2.png)
 
 
